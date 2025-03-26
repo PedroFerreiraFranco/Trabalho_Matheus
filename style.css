@@ -1,0 +1,83 @@
+body {
+    background-color: #000;
+    color: #fff;
+  }
+  
+  
+  h1 {
+    margin-top: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+  
+  .container {
+    margin-bottom: 40px;
+  }
+  
+  /* Cartões do Bootstrap:
+     - Fundo preto/cinza escuro
+     - Borda branca
+     - Texto branco */
+  .card {
+    background-color: #000  ;
+    border: 2px solid #fff  ;
+    color: #fff  ;
+    border-radius: 8px;
+    margin-bottom: 20px;
+  }
+  
+  .card-body {
+    background-color: #000  ;
+  }
+  
+  /* Título do card */
+  .card-title {
+    text-transform: uppercase;
+    margin-bottom: 15px;
+  }
+  
+  /* Botões do tipo .btn-light
+     - Fundo branco
+     - Texto preto
+     - Borda branca */
+  .btn-light {
+    background-color: #fff  ;
+    color: #000  ;
+    border: 2px solid #fff  ;
+    font-weight: bold;
+  }
+  
+  /* Borda no canvas da webcam */
+  #webcam-container canvas {
+    border: 2px solid #fff;
+    border-radius: 8px;
+  }
+  
+  /* Ajustar imagem de upload para 200x200
+     - Borda branca
+     - Centralizada
+     - object-fit: cover */
+  #uploadedImage {
+    width: 200px;
+    height: 200px;
+    border: 2px solid #fff;
+    border-radius: 8px;
+    object-fit: cover;
+    display: block;
+    margin: 20px auto 0 auto;
+  }
+  
+  /* Resultados com espaçamento e destaque */
+  #label-container-webcam div,
+  #label-container-upload div {
+    margin-top: 5px;
+    font-weight: bold;
+    text-align: left;
+  }
+  
+  /* Espaçamento adicional para seções */
+  .mt-2, .mt-3, .mt-4, .mb-2, .mb-3, .mb-4 {
+    margin-top: 1rem  ;
+    margin-bottom: 1rem  ;
+  }
+  
